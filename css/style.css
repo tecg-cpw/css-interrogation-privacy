@@ -1,0 +1,128 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    background-color: #061E2F;
+    color:white;
+}
+.title{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.mainHeader-title{
+    font-family: "Nabla", Helvetica, Arial, sans-serif;
+    font-size: 2em; /*32/16*/
+    padding: 0.625em; /*20/32*/
+    color: #186083;
+}
+.article-title, .mainFooter-title{
+    font-size: 1.75em; /*28/16*/
+    margin-bottom: 0.57142857142857142857em; /*16/28*/
+}
+h3{
+    font-size: 1.5625em; /*25/16*/
+    margin-bottom: 0.64em; /*16/25*/
+}
+h4{
+    font-size: 1.4375em; /*23/16*/
+    margin-bottom: 0.5217391304347826087em; /*12/23*/
+    line-height: 1.4;
+}
+img{
+    display: block;
+}
+.cover{
+    width: 100%;
+    height: auto;
+}
+a{
+    color:white;
+}
+a:visited{
+    color:#f897f8;
+}
+.normal-text{
+    line-height: 1.5;
+}
+/* ---------------*/
+/* --- header --- */
+/* ---------------*/
+.mainHeader-banner-legend{
+    background-color: #130F10;
+    font-size: 0.875em; /*14/16=*/
+    padding: 0.71428571428571428571em 2.6666666666666666667%; /*10/14 (10/375)*100*/
+    text-align: center;
+}
+.article-header{
+    margin-bottom: 1.25em; /*20/16*/
+}
+/* --------------- */
+/* --- Article --- */
+/* --------------- */
+.article, .news-container{
+    padding: 1.25em 5.3333333333333333333%; /* 20/16 (20/375)*100*/
+}
+.solutionList-item-link{
+    text-decoration: none;
+}
+.solutionList-item-link-name{
+    text-decoration: underline;
+}
+.normal-text{
+    margin-bottom: 1em; /*16/16*/
+}
+.article .cover, .news-article-cover{
+    margin-bottom: 1em; /*16/16*/
+}
+.mainSection+.mainSection{
+    margin-top: 1.5em; /*24/16*/
+}
+.subSection+.subSection{
+    margin-top: 1.25em; /*20/16*/
+}
+/* --- Solutions --- */
+.solutionList-item+.solutionList-item{
+    margin-top:0.5em;
+}
+.solutionList-item-link{
+    display: inline-block;
+    line-height: 1.5; /*24/16*/
+}
+.solutionList-item-link-icon, .solutionList-item-link-name {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* -------------- */
+/* --- footer --- */
+/* -------------- */
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.25em 5.3333333333333333333%; /* 20/16 (20/375)*100*/
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+.mainFooter-list-item+.mainFooter-list-item{
+    margin-top: 0.5em; /*8/16*/
+}
+/* ------------- */
+/* --- Index --- */
+/* ------------- */
+.news-article+.news-article{
+    margin-top: 2em;
+}
+.news-article-infos{
+    margin-bottom: 0.5em; /*8/16*/
+}
+.cta{
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 1em;
+}
